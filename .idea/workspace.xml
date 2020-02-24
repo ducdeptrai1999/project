@@ -1,0 +1,2129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shop1:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="963fabbf-645b-41e7-bc4f-a630408d7798" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/252fd6e8-d19d-47f2-b8ed-1f29768c9737.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/252fd6e8-d19d-47f2-b8ed-1f29768c9737/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3b610750-ebb8-4c8e-a885-b8566c22d91c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3b610750-ebb8-4c8e-a885-b8566c22d91c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shop1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/autowire/AutowireUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/autowire/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/autowire/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/common/annotation/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/common/annotation/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/common/annotation/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/common/annotation/Id.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/common/annotation/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/common/annotation/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/common/constant/RoleConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/common/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/ChangePass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/ProcessProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/SearchProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/TimKiemUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/XuLyTimKiem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/XuLyXoaSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/admin/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/crudController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/user/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/user/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/user/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/converter/UserConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/exception/ObjectNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/model/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/model/entity/SanPhamEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/model/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/model/entity/WishListEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/model/request/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/model/request/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/model/respond/RoleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/model/respond/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/paging/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/paging/Pageable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/JpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/SanPhamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/WishlistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/dao/ObjectDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/dao/ThanhVienDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/impl/BasicQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/impl/RoleRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/impl/SanPhamRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/impl/WhistlistRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/security/Authen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/security/AuthenDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/security/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/security/CounterFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/service/session/SessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/util/AnnotationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/util/FormUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/util/MySqlConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/util/ObjectUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/util/pool/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/buiminhduc/util/pool/ConnectionPoolIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/DatabaseInformation.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/taglib.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homepage/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homepage/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homepage/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/other/listuser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/other/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/blog.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/blogdetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/changepass.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/contact.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/about-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/all-bg-title.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/banner-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/banner-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/banner-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/big-img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/big-img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/big-img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/blog-img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/blog-img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/blog-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/img-pro-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/img-pro-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/img-pro-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/img-pro-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/ins-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/instagram-img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/instagram-img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/instagram-img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/instagram-img-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/instagram-img-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/instagram-img-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/instagram-img-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/instagram-img-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/instagram-img-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/payment-icon/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/payment-icon/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/payment-icon/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/payment-icon/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/payment-icon/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/shirt-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/shoes-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/smp-img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/smp-img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/smp-img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/t-shirts-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/wallet-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/women-bag-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagesdemo/women-shoes-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/insertacc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/listproduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/searchproduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/jquery.simpleLens.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/jquery.smartmenus.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/sequence-theme.modern-slide-in.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/theme-color/bridge-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/theme-color/dark-red-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/theme-color/default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/theme-color/green-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/theme-color/lite-blue-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/theme-color/orange-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/theme-color/pink-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/theme-color/purple-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/theme-color/red-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/css/theme-color/yellow-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNam/anh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNam/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNam/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNam/anh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNam/anh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNam/anh6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNam/anh7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNam/anh8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNam/anh9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/AnhProjectNu/anh9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/Woman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/ahihi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/anhBag/anh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/anhBag/anh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/anhShoes/anh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/anhShoes/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/anhShoes/anh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/anhTreEm/anh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/anhTreEm/anh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/apps.28411.13510798887593857.411c7070-8254-4bc7-9822-93212e9b3eaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/client-brand-css3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/client-brand-html5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/client-brand-java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/client-brand-joomla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/client-brand-jquery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/client-brand-wordpress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/close-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/electronics/electronic-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/electronics/electronic-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/electronics/electronic-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/electronics/electronic-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/electronics/electronic-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/electronics/electronic-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/electronics/electronic-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/electronics/electronic-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/fashion-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/fashion/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/fashion/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/fashion/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/fashion/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/fashion/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/fashion/fashion-header-bg-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/flag/english.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/flag/french.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/forbag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/forchil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/forman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/forshoes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/forwoman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/imgMain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man-small-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man/Ao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man/Quan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man/Set.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man/kinh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man/polo-shirt-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man/polo-shirt-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man/polo-shirt-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man/polo-shirt-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man/polo-shirt-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man/polo-shirt-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/man/t-shirt-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/paypal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/promo-banner-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/promo-banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/promo-banner-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/promo-banner-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/promo-banner-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/all-bg-title.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/background1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/background2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/background3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/background4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/bt-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/bt-next@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/bt-prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/bt-prev@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/demo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/hinh-nen-ngo-nghinh-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/slider/ins-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/sports/sport-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/sports/sport-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/sports/sport-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/sports/sport-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/sports/sport-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/sports/sport-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/sports/sport-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/sports/sport-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/testimonial-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/testimonial-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/testimonial-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/testimonial-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/large/polo-shirt-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/large/polo-shirt-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/large/polo-shirt-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/large/polo-shirt-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/medium/polo-shirt-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/medium/polo-shirt-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/medium/polo-shirt-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/medium/polo-shirt-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/thumbnail/polo-shirt-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/thumbnail/polo-shirt-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/thumbnail/polo-shirt-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/view-slider/thumbnail/polo-shirt-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/woman-small-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/woman-small-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/women/girl-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/women/girl-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/women/girl-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/women/girl-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/women/girl-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/women/girl-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/women/girl-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/img/yasuo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/js/jquery.simpleGallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/js/jquery.simpleLens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/js/jquery.smartmenus.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/js/jquery.smartmenus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/js/nouislider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/js/sequence-theme.modern-slide-in.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/js/sequence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/js/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/scss/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/scss/base/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/scss/base/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/scss/layouts/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/scss/layouts/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/scss/layouts/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/scss/modules/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/scss/modules/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/scss/modules/_sections.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/scss/modules/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templatesecond/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/updateacc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/wishlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DatabaseInformation.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/shop1.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/autowire/AutowireUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/autowire/BeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/common/annotation/Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/common/annotation/Component.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/common/annotation/Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/common/annotation/Id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/common/annotation/Repository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/common/annotation/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/common/constant/RoleConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/controller/ChangePass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/controller/ProcessProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/controller/SearchProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/controller/TimKiemUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/controller/XuLyTimKiem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/controller/XuLyXoaSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/controller/admin/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/controller/crudController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/controller/user/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/controller/user/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/controller/user/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/controller/user/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/converter/UserConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/exception/ObjectNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/model/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/model/entity/SanPhamEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/model/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/model/entity/WishListEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/model/request/Auth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/model/request/UserRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/model/respond/RoleResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/model/respond/UserResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/paging/PageRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/paging/Pageable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/JpaRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/SanPhamRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/WishlistRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/dao/ObjectDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/dao/ThanhVienDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/impl/BasicQuery$Query.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/impl/BasicQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/impl/RoleRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/impl/SanPhamRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/impl/UserRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/repository/impl/WhistlistRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/security/Authen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/security/AuthenDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/security/AuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/service/session/SessionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/util/AnnotationUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/util/FormUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/util/MySqlConnectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/util/ObjectUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/util/pool/ConnectionPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/buiminhduc/util/pool/ConnectionPoolIMPL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/DatabaseInformation.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/META-INF/shop.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/META-INF/shop1.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/autowire/AutowireUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/autowire/BeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/common/annotation/Column.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/common/annotation/Component.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/common/annotation/Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/common/annotation/Id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/common/annotation/Repository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/common/annotation/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/common/constant/RoleConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/controller/ChangePass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/controller/ProcessProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/controller/SearchProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/controller/TimKiemUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/controller/XuLyTimKiem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/controller/XuLyXoaSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/controller/admin/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/controller/crudController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/controller/user/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/controller/user/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/controller/user/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/controller/user/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/converter/UserConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/exception/ObjectNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/model/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/model/entity/SanPhamEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/model/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/model/entity/WishListEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/model/request/Auth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/model/request/UserRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/model/respond/RoleResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/model/respond/UserResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/paging/PageRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/paging/Pageable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/JpaRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/SanPhamRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/WishlistRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/dao/ObjectDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/dao/ThanhVienDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/impl/BasicQuery$Query.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/impl/BasicQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/impl/RoleRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/impl/SanPhamRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/impl/UserRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/repository/impl/WhistlistRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/security/Authen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/security/AuthenDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/security/AuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/service/session/SessionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/util/AnnotationUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/util/FormUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/util/MySqlConnectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/util/ObjectUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/util/pool/ConnectionPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/classes/com/buiminhduc/util/pool/ConnectionPoolIMPL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/lib/guava-20.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.21.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/lib/jstl-api-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/lib/reflections-0.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/view/common/taglib.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/view/error/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/view/homepage/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/view/homepage/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/view/homepage/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/view/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/view/other/listuser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/view/other/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/blog.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/blogdetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/changepass.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/contact.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/about-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/all-bg-title.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/banner-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/banner-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/banner-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/big-img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/big-img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/big-img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/blog-img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/blog-img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/blog-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/img-pro-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/img-pro-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/img-pro-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/img-pro-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/ins-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/instagram-img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/instagram-img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/instagram-img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/instagram-img-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/instagram-img-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/instagram-img-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/instagram-img-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/instagram-img-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/instagram-img-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/payment-icon/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/payment-icon/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/payment-icon/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/payment-icon/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/payment-icon/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/shirt-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/shoes-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/smp-img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/smp-img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/smp-img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/t-shirts-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/wallet-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/women-bag-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/imagesdemo/women-shoes-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/insertacc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/listproduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/searchproduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/jquery.simpleLens.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/jquery.smartmenus.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/sequence-theme.modern-slide-in.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/theme-color/bridge-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/theme-color/dark-red-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/theme-color/default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/theme-color/green-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/theme-color/lite-blue-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/theme-color/orange-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/theme-color/pink-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/theme-color/purple-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/theme-color/red-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/css/theme-color/yellow-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNam/anh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNam/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNam/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNam/anh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNam/anh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNam/anh6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNam/anh7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNam/anh8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNam/anh9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/AnhProjectNu/anh9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/Woman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/ahihi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/anhBag/anh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/anhBag/anh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/anhShoes/anh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/anhShoes/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/anhShoes/anh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/anhTreEm/anh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/anhTreEm/anh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/apps.28411.13510798887593857.411c7070-8254-4bc7-9822-93212e9b3eaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/client-brand-css3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/client-brand-html5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/client-brand-java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/client-brand-joomla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/client-brand-jquery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/client-brand-wordpress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/close-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/electronics/electronic-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/electronics/electronic-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/electronics/electronic-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/electronics/electronic-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/electronics/electronic-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/electronics/electronic-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/electronics/electronic-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/electronics/electronic-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/fashion-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/fashion/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/fashion/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/fashion/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/fashion/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/fashion/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/fashion/fashion-header-bg-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/flag/english.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/flag/french.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/forbag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/forchil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/forman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/forshoes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/forwoman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/imgMain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man-small-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man/Ao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man/Quan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man/Set.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man/kinh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man/polo-shirt-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man/polo-shirt-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man/polo-shirt-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man/polo-shirt-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man/polo-shirt-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man/polo-shirt-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/man/t-shirt-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/paypal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/promo-banner-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/promo-banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/promo-banner-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/promo-banner-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/promo-banner-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/all-bg-title.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/background1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/background2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/background3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/background4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/bt-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/bt-next@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/bt-prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/bt-prev@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/demo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/hinh-nen-ngo-nghinh-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/slider/ins-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/sports/sport-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/sports/sport-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/sports/sport-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/sports/sport-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/sports/sport-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/sports/sport-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/sports/sport-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/sports/sport-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/testimonial-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/testimonial-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/testimonial-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/testimonial-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/large/polo-shirt-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/large/polo-shirt-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/large/polo-shirt-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/large/polo-shirt-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/medium/polo-shirt-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/medium/polo-shirt-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/medium/polo-shirt-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/medium/polo-shirt-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/thumbnail/polo-shirt-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/thumbnail/polo-shirt-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/thumbnail/polo-shirt-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/view-slider/thumbnail/polo-shirt-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/woman-small-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/woman-small-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/women/girl-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/women/girl-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/women/girl-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/women/girl-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/women/girl-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/women/girl-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/women/girl-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/img/yasuo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/js/jquery.simpleGallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/js/jquery.simpleLens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/js/jquery.smartmenus.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/js/jquery.smartmenus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/js/nouislider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/js/sequence-theme.modern-slide-in.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/js/sequence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/js/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/scss/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/scss/base/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/scss/base/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/scss/layouts/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/scss/layouts/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/scss/layouts/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/scss/modules/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/scss/modules/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/scss/modules/_sections.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/scss/modules/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/templatesecond/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/updateacc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shop-1.0-SNAPSHOT/wishlist.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="java_shop: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="java_shop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="shop1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="package-info" />
+        <option value="jsf" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XkIjqMVnvLYC9mOWwiB94alQ6t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/spring-login" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\IdeaProjects\shop1\src\main\webapp" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\shop\src\main\webapp" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\shop\src\main\webapp\WEB-INF\view\other" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\shop\src\main\webapp\WEB-INF\view\homepage" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\shop\src\main\webapp\WEB-INF\view\error" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.buiminhduc.repository.IMPL" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\IdeaProjects\shop1\src\main\webapp\templatesecond\img" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\shop1\src\main\webapp\templatesecond\img\man" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\shop1\src\main\webapp\templatesecond\img\AnhProjectNu" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\shop1\src\main\webapp\templatesecond\img\women" />
+      <recent name="C:\Users\ADMIN\IdeaProjects\shop1\src\main\webapp\templatesecond\img\slider" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.50">
+    <configuration name="BeanFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.buiminhduc.autowire.BeanFactory" />
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buiminhduc.autowire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GioHangDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.buiminhduc.repository.dao.GioHangDAO" />
+      <module name="shop1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buiminhduc.repository.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhistlistRepositoryImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.buiminhduc.repository.impl.WhistlistRepositoryImpl" />
+      <module name="shop1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buiminhduc.repository.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="crudController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.buiminhduc.controller.crudController" />
+      <module name="shop1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buiminhduc.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jetty 9.4.24.v20191120" type="JettyConfiguration" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Jetty 9.4.24.v20191120" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Djetty.http.port=8100 " />
+      <deployment>
+        <artifact name="shop:war exploded">
+          <settings DEPLOYMENT_METHOD="contexts" />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="baseDirectoryName" value="Unnamed_shop" />
+          <option name="configFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="path" value="modules\acceptratelimit.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\alpn-impl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\alpn.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\annotations.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\apache-jsp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\apache-jstl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\bytebufferpool.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\cdi-decorate.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\cdi-spi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\cdi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\cdi2.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\client.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\connectionlimit.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\conscrypt.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\console-capture.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\continuation.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\customrequestlog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\debug.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\debuglog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\decorate.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\deploy.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\ext.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\fcgi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\flight-recorder.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gcloud-datastore.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gcloud.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\global-webapp-common.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gzip.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\hawtio.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\home-base-warning.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http-forwarded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http2.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http2c.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\https.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\inetaccess.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\infinispan-embedded-query.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\infinispan-embedded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\infinispan-remote-query.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\infinispan-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\ipaccess.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jaas.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jamon.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jaspi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jcl-slf4j.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jdbc.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jminix.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jmx-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="active" value="true" />
+                <option name="path" value="modules\jmx.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jndi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jolokia.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jsp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jstl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jul-impl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jul-slf4j.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jvm.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\log4j-impl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\log4j2-api.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\log4j2-impl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\log4j2-slf4j.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logback-access.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logback-impl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging-jetty.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging-jul.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging-log4j.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging-log4j2.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging-logback.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging-slf4j.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\lowresources.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\mail.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\openid.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\plus.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\proxy-protocol-ssl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\proxy-protocol.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\proxy.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\quickstart.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\requestlog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\resources.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\rewrite-compactpath.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\rewrite-customizer.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\rewrite.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\security.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\server.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\servlet.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\servlets.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-cache-hash.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-cache-null.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-cache.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-file.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-gcloud.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-hazelcast-embedded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-hazelcast-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-infinispan-embedded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-infinispan-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-jdbc.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-mongo.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\setuid.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\slf4j-api.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\slf4j-jul.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\slf4j-log4j.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\slf4j-log4j2.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\slf4j-logback.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\slf4j-simple-impl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\spring.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\ssl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\stats.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\stop.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\threadlimit.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\threadpool.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\transactions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\unixsocket-forwarded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\unixsocket-http.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\unixsocket-http2c.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\unixsocket-proxy-protocol.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\unixsocket-secure.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\unixsocket.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\webapp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\websocket.mod" />
+              </JettyConfigFile>
+            </list>
+          </option>
+          <option name="jndiPort" value="1100" />
+          <jndi-port>1100</jndi-port>
+          <base-directory-name>Unnamed_shop</base-directory-name>
+          <option name="myConfigFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="path" value="modules\acceptratelimit.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\alpn-impl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\alpn.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\annotations.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\apache-jsp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\apache-jstl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\bytebufferpool.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\cdi-decorate.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\cdi-spi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\cdi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\cdi2.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\client.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\connectionlimit.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\conscrypt.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\console-capture.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\continuation.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\customrequestlog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\debug.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\debuglog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\decorate.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\deploy.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\ext.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\fcgi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\flight-recorder.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gcloud-datastore.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gcloud.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\global-webapp-common.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gzip.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\hawtio.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\home-base-warning.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http-forwarded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http2.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http2c.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\https.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\inetaccess.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\infinispan-embedded-query.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\infinispan-embedded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\infinispan-remote-query.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\infinispan-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\ipaccess.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jaas.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jamon.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jaspi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jcl-slf4j.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jdbc.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jminix.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jmx-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="active" value="true" />
+                <option name="path" value="modules\jmx.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jndi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jolokia.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jsp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jstl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jul-impl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jul-slf4j.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jvm.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\log4j-impl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\log4j2-api.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\log4j2-impl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\log4j2-slf4j.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logback-access.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logback-impl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging-jetty.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging-jul.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging-log4j.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging-log4j2.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging-logback.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging-slf4j.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\lowresources.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\mail.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\openid.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\plus.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\proxy-protocol-ssl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\proxy-protocol.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\proxy.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\quickstart.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\requestlog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\resources.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\rewrite-compactpath.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\rewrite-customizer.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\rewrite.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\security.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\server.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\servlet.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\servlets.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-cache-hash.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-cache-null.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-cache.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-file.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-gcloud.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-hazelcast-embedded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-hazelcast-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-infinispan-embedded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-infinispan-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-jdbc.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\session-store-mongo.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\setuid.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\slf4j-api.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\slf4j-jul.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\slf4j-log4j.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\slf4j-log4j2.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\slf4j-logback.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\slf4j-simple-impl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\spring.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\ssl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\stats.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\stop.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\threadlimit.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\threadpool.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\transactions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\unixsocket-forwarded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\unixsocket-http.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\unixsocket-http2c.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\unixsocket-proxy-protocol.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\unixsocket-secure.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\unixsocket.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\webapp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\websocket.mod" />
+              </JettyConfigFile>
+            </list>
+          </option>
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Jetty" />
+      <ConfigurationWrapper VM_VAR="" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shop:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.50" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.50" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shop1:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shop" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63080" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shop:war exploded" />
+          <artifact name="shop1:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BeanFactory" />
+      <item itemvalue="Application.crudController" />
+      <item itemvalue="Application.GioHangDAO" />
+      <item itemvalue="Application.WhistlistRepositoryImpl" />
+      <item itemvalue="Jetty Server.Jetty 9.4.24.v20191120" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WhistlistRepositoryImpl" />
+        <item itemvalue="Application.GioHangDAO" />
+        <item itemvalue="Application.crudController" />
+        <item itemvalue="Application.BeanFactory" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.23570324" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="963fabbf-645b-41e7-bc4f-a630408d7798" name="Default Changelist" comment="" />
+      <created>1577890322527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577890322527</updated>
+      <workItem from="1577890327926" duration="4411000" />
+      <workItem from="1577949266465" duration="15925000" />
+      <workItem from="1578041567578" duration="588000" />
+      <workItem from="1578051214010" duration="690000" />
+      <workItem from="1578057332947" duration="3472000" />
+      <workItem from="1578061072409" duration="7473000" />
+      <workItem from="1578069207360" duration="2472000" />
+      <workItem from="1578119713905" duration="3946000" />
+      <workItem from="1578205765806" duration="1518000" />
+      <workItem from="1578230478946" duration="7229000" />
+      <workItem from="1578239274620" duration="3971000" />
+      <workItem from="1578244057422" duration="2970000" />
+      <workItem from="1578317630199" duration="8491000" />
+      <workItem from="1578396297681" duration="7037000" />
+      <workItem from="1578455565932" duration="485000" />
+      <workItem from="1578488555243" duration="15195000" />
+      <workItem from="1578581188491" duration="4563000" />
+      <workItem from="1578586278319" duration="5228000" />
+      <workItem from="1578641276092" duration="1102000" />
+      <workItem from="1578662152128" duration="12571000" />
+      <workItem from="1578711337738" duration="5894000" />
+      <workItem from="1578749536272" duration="9394000" />
+      <workItem from="1578824833702" duration="190000" />
+      <workItem from="1578834233823" duration="7777000" />
+      <workItem from="1580395523803" duration="1993000" />
+      <workItem from="1580562259675" duration="21000" />
+      <workItem from="1580564121717" duration="495000" />
+      <workItem from="1580564896016" duration="38000" />
+      <workItem from="1580565238409" duration="1083000" />
+      <workItem from="1580569912139" duration="1241000" />
+      <workItem from="1580627746482" duration="3930000" />
+      <workItem from="1580654704179" duration="2410000" />
+      <workItem from="1580657615239" duration="2510000" />
+      <workItem from="1580714923996" duration="10465000" />
+      <workItem from="1580738345159" duration="33702000" />
+      <workItem from="1580913274158" duration="3358000" />
+      <workItem from="1580994120887" duration="1026000" />
+      <workItem from="1580995773020" duration="76000" />
+      <workItem from="1581000186290" duration="723000" />
+      <workItem from="1581062012014" duration="72000" />
+      <workItem from="1581081012901" duration="1036000" />
+      <workItem from="1581082110244" duration="324000" />
+      <workItem from="1581082772731" duration="96000" />
+      <workItem from="1581085971844" duration="1430000" />
+      <workItem from="1581090235542" duration="479000" />
+      <workItem from="1581150065516" duration="12000" />
+      <workItem from="1581164873616" duration="970000" />
+      <workItem from="1581167356675" duration="6000" />
+      <workItem from="1581167654890" duration="45000" />
+      <workItem from="1581170160973" duration="2981000" />
+      <workItem from="1581175427882" duration="1017000" />
+      <workItem from="1581178554387" duration="41000" />
+      <workItem from="1581217687899" duration="68000" />
+      <workItem from="1581217919131" duration="36000" />
+      <workItem from="1581219627835" duration="24107000" />
+      <workItem from="1581319993068" duration="6439000" />
+      <workItem from="1581345889528" duration="6277000" />
+      <workItem from="1581389601443" duration="9996000" />
+      <workItem from="1581480095104" duration="1362000" />
+      <workItem from="1581504131468" duration="86000" />
+      <workItem from="1581583805573" duration="1914000" />
+      <workItem from="1581587698637" duration="1177000" />
+      <workItem from="1581599916518" duration="833000" />
+      <workItem from="1581602539640" duration="873000" />
+      <workItem from="1581604012492" duration="6770000" />
+      <workItem from="1581685211600" duration="3901000" />
+      <workItem from="1581689730975" duration="4820000" />
+      <workItem from="1581774887204" duration="45000" />
+      <workItem from="1581777098352" duration="53000" />
+      <workItem from="1581778882211" duration="11000" />
+      <workItem from="1581821605958" duration="4222000" />
+      <workItem from="1581838676832" duration="3694000" />
+      <workItem from="1581842432042" duration="321000" />
+      <workItem from="1581842913015" duration="3074000" />
+      <workItem from="1581857427043" duration="8891000" />
+      <workItem from="1581868381358" duration="693000" />
+      <workItem from="1581906115910" duration="5494000" />
+      <workItem from="1581921643932" duration="9475000" />
+      <workItem from="1581944448776" duration="9700000" />
+      <workItem from="1582031562271" duration="7693000" />
+      <workItem from="1582085268461" duration="8000" />
+      <workItem from="1582121963815" duration="5000" />
+      <workItem from="1582124951056" duration="6000" />
+      <workItem from="1582290002605" duration="1022000" />
+      <workItem from="1582291068711" duration="6076000" />
+      <workItem from="1582376729089" duration="8219000" />
+      <workItem from="1582385570332" duration="1662000" />
+      <workItem from="1582444113078" duration="1834000" />
+      <workItem from="1582446044684" duration="2764000" />
+      <workItem from="1582462556449" duration="4437000" />
+      <workItem from="1582467052764" duration="5343000" />
+      <workItem from="1582535749365" duration="755000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="169" key="#BuildArtifactsBeforeRunChooser" timestamp="1581584092839">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="169" key="#BuildArtifactsBeforeRunChooser/0.0.1366.728@0.0.1366.728" timestamp="1581584092839" />
+    <state x="274" y="22" key="#Deployment" timestamp="1582536872062">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="22" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1582536872062" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581866166294">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581866166294" />
+    <state x="452" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582386277260">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="452" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1582386277260" />
+    <state x="582" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1582465730260">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="582" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582465730260" />
+    <state x="399" y="82" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1581694360657">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="82" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1581694360657" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581863914002">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1581863914002" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581931930857">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581931930857" />
+    <state x="231" y="0" key="CommitChangelistDialog2" timestamp="1582536878927">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="231" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582536878927" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1582463582267">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582463582267" />
+    <state width="988" height="310" key="GridCell.Tab.0.bottom" timestamp="1582472525054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="310" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582472525054" />
+    <state width="988" height="310" key="GridCell.Tab.0.center" timestamp="1582472525054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="310" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582472525054" />
+    <state width="988" height="310" key="GridCell.Tab.0.left" timestamp="1582472525054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="310" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582472525054" />
+    <state width="988" height="310" key="GridCell.Tab.0.right" timestamp="1582472525054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="310" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582472525054" />
+    <state width="988" height="310" key="GridCell.Tab.1.bottom" timestamp="1582472525054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="310" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582472525054" />
+    <state width="988" height="310" key="GridCell.Tab.1.center" timestamp="1582472525054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="310" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582472525054" />
+    <state width="988" height="310" key="GridCell.Tab.1.left" timestamp="1582472525054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="310" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582472525054" />
+    <state width="988" height="310" key="GridCell.Tab.1.right" timestamp="1582472525054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="310" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582472525054" />
+    <state width="988" height="310" key="GridCell.Tab.2.bottom" timestamp="1582472525054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="310" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582472525054" />
+    <state width="988" height="310" key="GridCell.Tab.2.center" timestamp="1582472525054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="310" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1582472525054" />
+    <state width="988" height="310" key="GridCell.Tab.2.left" timestamp="1582472525054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="310" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1582472525054" />
+    <state width="988" height="310" key="GridCell.Tab.2.right" timestamp="1582472525054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="310" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1582472525054" />
+    <state width="988" height="300" key="GridCell.Tab.3.bottom" timestamp="1581954114840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="300" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581954114840" />
+    <state width="988" height="300" key="GridCell.Tab.3.center" timestamp="1581954114840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="300" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1581954114840" />
+    <state width="988" height="300" key="GridCell.Tab.3.left" timestamp="1581954114840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="300" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1581954114840" />
+    <state width="988" height="300" key="GridCell.Tab.3.right" timestamp="1581954114840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="988" height="300" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1581954114840" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582535752920">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582535752920" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1581952561559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581952561559" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581906691670">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581906691670" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/buiminhduc/service/impl/UserServiceImpl.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/impl/SanPhamRepositoryImpl.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/impl/UserRepositoryImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/buiminhduc/repository/impl/BasicQuery.java</url>
+          <line>197</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/buiminhduc/controller/XuLyXoaSP.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="request" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/shop$Tomcat_8_5_50.ic" NAME="Tomcat 8.5.50 Coverage Results" MODIFIED="1578242689007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
